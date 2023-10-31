@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-const weddingDate = new Date("2023-12-18T00:00:00").getTime();
+const weddingDate = new Date("2024-09-15T00:00:00").getTime();
 
 // Update the countdown every 1 second
 const x = setInterval(function() {

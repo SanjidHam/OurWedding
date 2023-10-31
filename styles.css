@@ -2,10 +2,18 @@ body {
     margin: 0;
     padding: 0;
     background: no-repeat center center fixed;
-    background-size: cover;
-    background-image: url("engagementPhoto.png");
-    background-color: #C1CDC1; /* Sage green background color */
-    font-family: 'Arial', sans-serif;
+    /* background-size: auto 100%; */
+    /* background-image: url("engagementPhoto.png"); */
+    background-image: url("bg1.png"), url("engagementPhoto.png"), url("bg2.png");
+    background-size: auto 100%, auto 100%, auto 100%;
+    background-position: left top, center top, right top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute the images evenly */
+    background-color: #ffffff; /* White background color */
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     text-align: center;
 }
 
@@ -21,42 +29,48 @@ body {
 
 .content {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(135, 206, 235, 0.7); /* Slate blue background with some transparency */
+    transform: translateX(-50%);
+    /* background: rgba(135, 206, 235, 0.7); Slate blue background with some transparency */
     padding: 30px;
     border-radius: 10px;
 }
 
 .title {
-    color: #5A6E7A; /* Slate gray text color */
+    color: #000000; /* White text color */
     font-size: 36px;
     margin-top: 0;
 }
 
 .date {
-    color: #5A6E7A;
+    color: #000000;
     font-size: 24px;
     margin-top: 0;
 }
 
+.countdown {
+    color: #000000; /* White text color for the countdown timer */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
 .section {
-    color: #5A6E7A;
+    color: #000000;
     font-size: 24px;
     margin-top: 20px;
 }
 
 .info {
-    color: #5A6E7A;
+    color: #000000;
     font-size: 18px;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #b8cfb8; /* Sage green background for buttons */
-    color: #5A6E7A;
+    background-color: #FFFFFF; /* White background for buttons */
+    color: #b8cfb8;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -64,6 +78,6 @@ body {
 }
 
 .btn:hover {
-    background-color: #5A6E7A; /* Hover background color */
-    color: #C1CDC1; /* Hover text color */
+    background-color: #b8cfb8; /* Hover background color */
+    color: #FFFFFF; /* Hover text color */
 }
