@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    background-image: url("your-background-image.jpg");
+    background-color: #f7f0e1; /* Soft, elegant background color */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #FFD700; /* Gold text color */
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.date {
+    color: #FF69B4; /* Peach pink text color */
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.section {
+    color: #FFD700; /* Gold text color */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.info {
+    color: #FF69B4; /* Peach pink text color */
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Gold background color */
+    color: #FF69B4; /* Peach pink text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #FF69B4; /* Hover background color */
+    color: #FFD700; /* Hover text color */
+}
