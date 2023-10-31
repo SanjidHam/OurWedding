@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Distribute the images evenly */
-    background-color: #ffffff; /* White background color */
+    background-color: #e6e2e8;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     text-align: center;
 }
