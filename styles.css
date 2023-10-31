@@ -9,6 +9,16 @@ body {
     text-align: center;
 }
 
+/* .border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background: url("border.png") no-repeat center center;
+    background-size: cover;
+} */
+
 .content {
     position: absolute;
     top: 50%;
