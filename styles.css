@@ -31,7 +31,7 @@ body {
 
 .title {
     color: #000000;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'CustomFont', sans-serif;
@@ -39,7 +39,7 @@ body {
 
 .section {
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -47,7 +47,7 @@ body {
 
 .date {
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'CustomFont', sans-serif;
@@ -63,7 +63,7 @@ body {
 
 .info {
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
@@ -87,7 +87,7 @@ body {
 /* Media query for devices with a maximum pixel width of 768px */
 @media (max-width: 768px) and (min-device-pixel-ratio: 1) {
     .title {
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .section, .date, .countdown, .info {
