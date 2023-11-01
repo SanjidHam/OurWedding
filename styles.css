@@ -7,8 +7,6 @@ body {
     margin: 0;
     padding: 0;
     background: no-repeat center center fixed;
-    /* background-size: auto 100%; */
-    /* background-image: url("engagementPhoto.png"); */
     background-image: url("bg1.png"), url("engagementPhoto.png"), url("bg2.png");
     background-size: auto 100%, auto 100%, auto 100%;
     background-position: left top, center top, right top;
@@ -16,9 +14,9 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Distribute the images evenly */
+    justify-content: space-between;
     background-color: #e6e2e8;
-    /* font-family: 'Brush Script MT', 'Brush Script Std', cursive; */
+    font-family: 'CustomFont', sans-serif;
     text-align: center;
 }
 
@@ -27,22 +25,20 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    /* background: rgba(135, 206, 235, 0.7); Slate blue background with some transparency */
     padding: 30px;
     border-radius: 10px;
 }
 
 .title {
-    color: #000000; /* White text color */
-    font-size: 72px;
+    color: #000000;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'CustomFont', sans-serif;
 }
 
 .section {
     color: #000000;
-    font-size: 24px;
+    font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -50,15 +46,15 @@ body {
 
 .date {
     color: #000000;
-    font-size: 24px;
+    font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'CustomFont', sans-serif;
 }
 
 .countdown {
-    color: #000000; /* White text color for the countdown timer */
-    font-size: 24px;
+    color: #000000;
+    font-size: 1rem;
     margin-top: 20px;
     margin-bottom: 0;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -66,23 +62,38 @@ body {
 
 .info {
     color: #000000;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFFFFF; /* White background for buttons */
+    background-color: #FFFFFF;
     color: #5f5454;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #5f5454;
     transition: background-color 0.3s;
     margin-top: 10px;
 }
 
 .btn:hover {
-    background-color: #b8cfb8; /* Hover background color */
-    color: #FFFFFF; /* Hover text color */
+    background-color: #b8cfb8;
+    color: #FFFFFF;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for phones) */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .section, .date, .countdown, .info {
+        font-size: 18px;
+    }
 }
