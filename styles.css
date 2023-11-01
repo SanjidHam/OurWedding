@@ -84,12 +84,8 @@ body {
     color: #FFFFFF;
 }
 
-/* Media query for screens with a maximum width of 768px (typical for phones) */
-@media (max-width: 768px) {
-    .content {
-        padding: 10px;
-    }
-
+/* Media query for devices with a maximum pixel width of 768px */
+@media (max-width: 768px) and (min-device-pixel-ratio: 1) {
     .title {
         font-size: 36px;
     }
